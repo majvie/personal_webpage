@@ -1,0 +1,32 @@
+papers:
+  - title: Trajectory Prediction for Telescope Based UAV Tracking
+    date: 2022-07-01
+    summary: >
+      Bachelor thesis comparing the use of Kalman and Particle filters for object tracking, improving the performance in cases of object occlusion and jumping trackers.
+    link: /assets/pdf/Vieweg_TrajectoryPrediction.pdf
+
+  - title: Transmission Box Report (GER)
+    date: 2021-09-01
+    summary: >
+      Report from the class 'Machine Design - Project', describing calculations for a transmission box, using DIN and ISO norms
+    link: /assets/pdf/e11806443_Berechnung.pdf
+
+  - title: Modelling of a Hexabot Leg in MATLAB
+    date: 2022-10-01
+    summary: >
+      Report from the class 'Kinematics and Geometric Modelling', describing reverse kinematics modelling for a hexabot leg
+    link: /assets/pdf/lab_kinematic_chains.pdf
+
+  - title: The Cultural Revolution in China (GER)
+    date: 2017-02-01
+    summary: >
+      High school thesis on the Chinese Cultural Revolution, including an interview held and translated by myself
+    link: /assets/pdf/Vieweg_DieKulturrevolutionInChina.pdf
+
+notes:
+  - title: "Stat 211: Statistical Inference"
+    date: 2021-12-01
+    summary: >
+      Graduate-level class discussing inference on statistical models,
+      frequentist and Bayesian perspectives.
+    link: /assets/pdf/Vieweg_TrajectoryPrediction.pdf
