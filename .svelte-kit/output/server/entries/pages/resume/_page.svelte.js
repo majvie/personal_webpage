@@ -106,6 +106,28 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     </li>`;
       }
     }
+  )}
+
+  ${validate_component(Uni, "Uni").$$render(
+    $$result,
+    {
+      title: "Extracurricular Study Exchanges",
+      uni: "",
+      url: "",
+      dates: "",
+      location: ""
+    },
+    {},
+    {
+      default: () => {
+        return `<li>Universidad de Valencia: Spanish B2 Summer Language School, two months
+    </li>
+    <li>McGill University: B2 Full Time Intensive French Language program, three months
+    </li>
+    <li>Beijing No. 12 High School: Exchange at a local Chinese high school with courses in Chinese language, six months
+    </li>`;
+      }
+    }
   )}</section>
 
 <section class="${"layout-md py-12"}"><h2 class="${"heading2"}">Professional Experience</h2>
