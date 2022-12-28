@@ -12,7 +12,7 @@
 <section class="layout-md py-0">
 <div class="flex justify-between items-end">
 <h2>
-  <a class="link" href="https://drive.google.com/file/d/1GK20lZ1-lWUkUh_xpJ_2i__kH2gMJpd9/view">Curriculum Vitae</a> 
+  <a class="link" href="https://drive.google.com/file/d/18W0d2tIXBUBEB_hkNt9mVtpIBShcVKxC/view">Curriculum Vitae</a> 
 </h2>
 <div class="text-neutral-500 mb-1">
   Download the latest version
