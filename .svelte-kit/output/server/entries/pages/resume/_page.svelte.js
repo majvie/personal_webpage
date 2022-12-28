@@ -64,7 +64,13 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     {}
   )}
 
-<section class="${"layout-md py-12"}"><h2 class="${"heading2"}">Education</h2>
+<section class="${"layout-md py-0"}"><div class="${"flex justify-between items-end"}"><h2><a class="${"link"}" href="${"https://drive.google.com/file/d/1GK20lZ1-lWUkUh_xpJ_2i__kH2gMJpd9/view"}">Curriculum Vitae</a></h2>
+<div class="${"text-neutral-500 mb-1"}">Download the latest version
+</div></div></section>
+
+
+
+<section class="${"layout-md py-10"}"><h2 class="${"heading2"}">Education</h2>
 
   ${validate_component(Uni, "Uni").$$render(
     $$result,
@@ -130,7 +136,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     }
   )}</section>
 
-<section class="${"layout-md py-12"}"><h2 class="${"heading2"}">Professional Experience</h2>
+<section class="${"layout-md py-10"}"><h2 class="${"heading2"}">Professional Experience</h2>
 
   ${validate_component(Workplace, "Workplace").$$render(
     $$result,
@@ -208,7 +214,15 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     </li>`;
       }
     }
-  )}</section>`;
+  )}</section>
+
+<section class="${"layout-md py-12"}"><h2 class="${"heading2"}">Skills</h2>
+  <ul><li><b>Programming</b> <br> Python (Pandas, PyTorch, NumPy), C, C++, Java, MATLAB/Simulink, OpenCV, ROS, SQL
+    </li>
+    <li><b>Miscellaneous</b> <br> Linux, CATIA, 3D Printing, STM32, LaTeX, Microsoft Office, AWS Basic Knowledge, git
+    </li>
+    <li><b>Languages</b> <br>  <b>German</b>: C2, <b>English</b>: C2, <b>French</b>: B2, <b>Chinese</b>: HSK4 eq. B2, <b>Spanish</b>: B1/B2
+    </li></ul></section>`;
 });
 export {
   Page as default
