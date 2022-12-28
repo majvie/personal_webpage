@@ -1,63 +1,9 @@
 import { c as create_ssr_component, v as validate_component, e as escape, d as each, f as add_attribute, o as add_classes, b as subscribe } from "../../../chunks/index.js";
 import { p as page } from "../../../chunks/stores.js";
-import { I as Icon } from "../../../chunks/Icon.js";
 import { S as Seo } from "../../../chunks/Seo.js";
+import { I as Icon } from "../../../chunks/Icon.js";
 import { marked } from "marked";
 import { f as formatTime } from "../../../chunks/utils.js";
-const Calendar_days = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  const iconNode = [
-    [
-      "rect",
-      {
-        "x": "3",
-        "y": "4",
-        "width": "18",
-        "height": "18",
-        "rx": "2",
-        "ry": "2"
-      }
-    ],
-    [
-      "line",
-      {
-        "x1": "16",
-        "y1": "2",
-        "x2": "16",
-        "y2": "6"
-      }
-    ],
-    [
-      "line",
-      {
-        "x1": "8",
-        "y1": "2",
-        "x2": "8",
-        "y2": "6"
-      }
-    ],
-    [
-      "line",
-      {
-        "x1": "3",
-        "y1": "10",
-        "x2": "21",
-        "y2": "10"
-      }
-    ],
-    ["path", { "d": "M8 14h.01" }],
-    ["path", { "d": "M12 14h.01" }],
-    ["path", { "d": "M16 14h.01" }],
-    ["path", { "d": "M8 18h.01" }],
-    ["path", { "d": "M12 18h.01" }],
-    ["path", { "d": "M16 18h.01" }]
-  ];
-  return `${validate_component(Icon, "Icon").$$render($$result, Object.assign({ name: "calendar-days" }, $$props, { iconNode }), {}, {
-    default: () => {
-      return `${slots.default ? slots.default({}) : ``}`;
-    }
-  })}`;
-});
-const CalendarDays = Calendar_days;
 const Star = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   const iconNode = [
     [
@@ -327,7 +273,7 @@ const __vite_glob_1_6 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.def
   default: transmission_box
 }, Symbol.toStringTag, { value: "Module" }));
 const Markdown_svelte_svelte_type_style_lang = "";
-const css$2 = {
+const css$1 = {
   code: ".md-output.svelte-19wf98v p{margin-bottom:1rem\n}.md-output.svelte-19wf98v strong{font-weight:600\n}.md-output.svelte-19wf98v code{font-size:95%\n}",
   map: null
 };
@@ -348,13 +294,13 @@ const Markdown = create_ssr_component(($$result, $$props, $$bindings, slots) => 
   });
   if ($$props.source === void 0 && $$bindings.source && source !== void 0)
     $$bindings.source(source);
-  $$result.css.add(css$2);
+  $$result.css.add(css$1);
   html = marked.parse(source, { smartLists: true, smartypants: true });
   return `<div class="${"md-output svelte-19wf98v"}"><!-- HTML_TAG_START -->${html}<!-- HTML_TAG_END -->
 </div>`;
 });
 const Project_svelte_svelte_type_style_lang = "";
-const css$1 = {
+const css = {
   code: ".pill.svelte-1d8a62h{display:flex;align-items:center;font-size:0.875rem;line-height:1.25rem;font-weight:500;margin-right:0.375rem;margin-bottom:0.5rem;border-radius:9999px;--tw-bg-opacity:1;background-color:rgb(245 245 245 / var(--tw-bg-opacity));padding-left:0.375rem;padding-right:0.375rem;padding-top:1px;padding-bottom:1px\n}",
   map: null
 };
@@ -368,7 +314,7 @@ const Project = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     $$bindings.images(images);
   if ($$props.stars === void 0 && $$bindings.stars && stars !== void 0)
     $$bindings.stars(stars);
-  $$result.css.add(css$1);
+  $$result.css.add(css);
   return `
 <h3 class="${"text-black text-xl font-semibold mb-2"}"><span class="${"mr-1"}">${escape(data.title)}</span>
   <small class="${"whitespace-nowrap text-neutral-500 text-base font-normal"}">${escape(formatTime("%B %Y", data.date))}</small></h3>
@@ -391,11 +337,6 @@ const Project = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   })}</div>` : ``}
 </div>`;
 });
-const _page_svelte_svelte_type_style_lang = "";
-const css = {
-  code: "button.svelte-1qrsmpk{display:flex;align-items:center;--tw-text-opacity:1;color:rgb(163 163 163 / var(--tw-text-opacity));transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms\n}button.svelte-1qrsmpk:hover{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity))\n}button.active.svelte-1qrsmpk{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity))\n}",
-  map: null
-};
 function trimName(id) {
   return id.match(/\.\.\/projects\/(.*)\.md$/)?.[1];
 }
@@ -407,7 +348,6 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   const projects = /* @__PURE__ */ Object.assign({ "../../projects/01_trajectory_prediction.md": __vite_glob_0_0, "../../projects/02_fish_classification.md": __vite_glob_0_1, "../../projects/03_transmission_box.md": __vite_glob_0_2, "../../projects/chess_board.md": __vite_glob_0_3, "../../projects/line_follower.md": __vite_glob_0_4, "../../projects/mnist_class.md": __vite_glob_0_5, "../../projects/pong_clone.md": __vite_glob_0_6 });
   const images = /* @__PURE__ */ Object.assign({ "../../projects/chessboard.png": __vite_glob_1_0, "../../projects/fish_classification.png": __vite_glob_1_1, "../../projects/line_follower.png": __vite_glob_1_2, "../../projects/mnist_class.png": __vite_glob_1_3, "../../projects/pong_clone.png": __vite_glob_1_4, "../../projects/trajectory_prediction.png": __vite_glob_1_5, "../../projects/transmission_box.png": __vite_glob_1_6 });
   let stars = null;
-  $$result.css.add(css);
   projectsByDate = Object.keys(projects).sort((a, b) => projects[b].date - projects[a].date);
   projectsByTitle = Object.keys(projects).sort((a, b) => {
     const titleA = projects[a].title.toLowerCase();
@@ -436,28 +376,6 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
         </li>`;
   })}</ul></section></div>
 
-<div class="${"bg-neutral-50 border-b border-neutral-200 py-4"}"><div class="${"flex justify-center space-x-6"}"><button class="${["svelte-1qrsmpk", "active"].join(" ").trim()}">${validate_component(CalendarDays, "CalendarDays").$$render(
-    $$result,
-    {
-      size: 18,
-      strokeWidth: 1.8,
-      class: "mr-1.5"
-    },
-    {},
-    {}
-  )} by Date
-    </button>
-    <button class="${["svelte-1qrsmpk", ""].join(" ").trim()}">${validate_component(Star$1, "Star").$$render(
-    $$result,
-    {
-      size: 18,
-      strokeWidth: 1.8,
-      class: "mr-1.5"
-    },
-    {},
-    {}
-  )} by Stars
-    </button></div></div>
 
 ${each(projectsByDate, (id) => {
     return `<section class="${"py-10"}"${add_attribute("id", trimName(id), 0)}><div class="${"mx-auto max-w-[1152px] px-4 sm:px-6"}">${validate_component(Project, "Project").$$render($$result, { data: projects[id], images, stars }, {}, {})}</div>

@@ -111,8 +111,8 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   ${validate_component(Uni, "Uni").$$render(
     $$result,
     {
-      title: "Extracurricular Study Exchanges",
-      uni: "",
+      title: "",
+      uni: "Extracurricular Study Exchanges",
       url: "",
       dates: "",
       location: ""
