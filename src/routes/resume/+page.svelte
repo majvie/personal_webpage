@@ -46,8 +46,8 @@
   </Uni>
 
   <Uni
-    title="Extracurricular Study Exchanges"
-    uni=""
+    title=""
+    uni="Extracurricular Study Exchanges"
     url=""
     dates=""
     location=""

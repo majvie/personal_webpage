@@ -78,22 +78,6 @@
   </section>
 </div>
 
-<div class="bg-neutral-50 border-b border-neutral-200 py-4">
-  <div class="flex justify-center space-x-6">
-    <button
-      class:active={sortOrder === "date"}
-      on:click={() => (sortOrder = "date")}
-    >
-      <CalendarDays size={18} strokeWidth={1.8} class="mr-1.5" /> by Date
-    </button>
-    <button
-      class:active={sortOrder === "stars"}
-      on:click={() => (sortOrder = "stars")}
-    >
-      <Star size={18} strokeWidth={1.8} class="mr-1.5" /> by Stars
-    </button>
-  </div>
-</div>
 
 {#each sortOrder === "date" ? projectsByDate : projectsByStars as id (id)}
   <section class="py-10" id={trimName(id)}>
