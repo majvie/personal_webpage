@@ -8,5 +8,6 @@ This website is powered by [SvelteKit](https://kit.svelte.dev/) and
 
 ```sh-session
 $ npm install
+$ npm run build 
 $ npm run dev
 ```
