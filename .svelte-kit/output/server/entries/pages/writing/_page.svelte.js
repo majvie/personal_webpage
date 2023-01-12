@@ -32,6 +32,12 @@ var data = {
       link: "/assets/pdf/Vieweg_TrajectoryPrediction.pdf"
     },
     {
+      title: "Oceanography Report",
+      date: new Date(16732224e5),
+      summary: "Report from the class 'Oceanography', describing the cast of CTD's and the comparison between simulated drifter advection and data recorded with Ifremer. \n",
+      link: "/assets/pdf/Vieweg_Oceanography_Trip_Report.pdf"
+    },
+    {
       title: "Transmission Box Report (GER)",
       date: new Date(16304544e5),
       summary: "Report from the class 'Machine Design - Project', describing calculations for a transmission box, using DIN and ISO norms\n",

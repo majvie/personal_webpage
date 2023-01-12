@@ -5,6 +5,12 @@ papers:
       Bachelor thesis comparing the use of Kalman and Particle filters for object tracking, improving the performance in cases of object occlusion and jumping trackers.
     link: /assets/pdf/Vieweg_TrajectoryPrediction.pdf
 
+  - title: Oceanography Report
+    date: 2023-01-09
+    summary: >
+      Report from the class 'Oceanography', describing the cast of CTD's and the comparison between simulated drifter advection and data recorded with Ifremer. 
+    link: /assets/pdf/Vieweg_Oceanography_Trip_Report.pdf
+
   - title: Transmission Box Report (GER)
     date: 2021-09-01
     summary: >

@@ -19,8 +19,13 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       desc: "classifying fish using CNNs in pytorch"
     },
     {
+      name: "Maritime Object Detection",
+      href: "/projects#03_maritime_object_detection",
+      desc: "detecting sailboats at sea"
+    },
+    {
       name: "Transmission Box",
-      href: "/projects#03_transmission_box",
+      href: "/projects#05_transmission_box",
       desc: "design and calculations for a transmission box"
     }
   ];
@@ -38,12 +43,14 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 <p class="${"layout-md text-black text-xl leading-tight font-light mb-16 svelte-ikj1jd"}" id="${"eric-is"}"><span class="${"g svelte-ikj1jd"}">is a</span> robotics engineer <span class="${"g svelte-ikj1jd"}">and </span><br>
   graduate student<span class="${"g svelte-ikj1jd"}">.</span></p>
 
-<div class="${"layout-md text-lg space-y-14"}"><div class="${"space-y-5"}"><p>I study robotics at the Instituto Técnico Lisboa and the Université de Toulon. 
+<div class="${"layout-md text-lg space-y-14"}"><div class="${"space-y-5"}"><p>I study robotics at the Instituto Técnico Lisboa and the Université de
+      Toulon.
     </p>
 
-    <p>I want to pursue a career in research, using computation methods to explain real life phenomena. 
-      My generalist background in mechatronics engineering gave me the tools to understand phyiscal systems;
-      now I want to use that knowledge to analyse them using machine learning methods.
+    <p>I want to pursue a career in research, using computation methods to
+      explain real life phenomena. My generalist background in mechatronics
+      engineering gave me the tools to understand phyiscal systems; now I want
+      to use that knowledge to analyse them using machine learning methods.
     </p></div>
 
   <div class="${"leading-snug space-y-4"}"><p class="${"pb-2"}">Notable projects:</p>

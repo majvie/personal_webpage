@@ -7,7 +7,7 @@
     <meta http-equiv="content-security-policy" content="">
 		<link href="./_app/immutable/assets/_layout-bce8b917.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/_page-5f9ec808.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/start-b126b76a.js">
+		<link rel="modulepreload" href="./_app/immutable/start-1fc74d85.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index-e1a266ff.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-617ff9e8.js">
 		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-d9971c7a.js">
@@ -15,7 +15,7 @@
 		<link rel="modulepreload" href="./_app/immutable/chunks/stores-4fa35645.js">
 		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.ts-00dcd498.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-a77f3046.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/projects/_page.svelte-b0c858e1.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/projects/_page.svelte-61058d07.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Seo-123bff72.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Icon-19141b88.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/utils-7d7f714d.js"><title>Maximilian Vieweg – Projects</title><!-- HEAD_svelte-198i7eq_START -->
@@ -48,7 +48,9 @@
 <div class="bg-gray-900 text-neutral-200 dark"><section class="layout-md py-12"><h2 class="heading2 text-white">Table of Contents</h2>
     <ul class="sm:columns-2"><li><a class="link" href="#01_trajectory_prediction">Trajectory Prediction of Unmanned Aerial Vehicles for a Telescope System</a>
         </li><li><a class="link" href="#02_fish_classification">Fish Classification</a>
-        </li><li><a class="link" href="#03_transmission_box">Transmission Box</a>
+        </li><li><a class="link" href="#03_maritime_object_detection">Detection of Maritime Objects</a>
+        </li><li><a class="link" href="#04_drifter_movement_simulation">Simulation of Drifter Advection compared to Real-Life Data</a>
+        </li><li><a class="link" href="#05_transmission_box">Transmission Box</a>
         </li><li><a class="link" href="#chess_board">Chess Board</a>
         </li><li><a class="link" href="#line_follower">HDD Based Line Follower</a>
         </li><li><a class="link" href="#mnist_class">Handwritten Letters Classficiation</a>
@@ -85,14 +87,50 @@
 
 
 <div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">fish classification using CNNs</p>
-      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p><a rel="external" href="https://github.com/majvie/fish_classification" class="link"><code>fish_classification</code></a> - This project involves using CNNs and PyTorch to classify fish images into different categories. We will train a model on a dataset of fish images and use it to predict the class of new, unseen images. The goal is to achieve high accuracy in classifying different fish species based on their images.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p><code>fish_classification</code> - This project involves using CNNs and PyTorch to classify fish images into different categories. We will train a model on a dataset of fish images and use it to predict the class of new, unseen images. Finally its performance is compared to a fine-tuned AlexNet and a MobileNet to explore Transfer Learning.</p>
 <!-- HTML_TAG_END -->
 </div></div>
     <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/fish_classification-fd2ac493.png"><img src="/_app/immutable/assets/fish_classification-fd2ac493.png" alt="Fish Classification preview image"></a></div></div>
 
   
 </div></div>
-  </section><section class="py-10" id="03_transmission_box"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+  </section><section class="py-10" id="03_maritime_object_detection"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Detection of Maritime Objects</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">December 2022</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/undefined/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">Object Detection</div><div class="pill svelte-1d8a62h">R-CNN</div><div class="pill svelte-1d8a62h">pytorch</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">detecting sailboats at sea</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p><code>object_detection</code> - A Faster R-CNN is trained to detect and categorize maritime objects, such as sailboats and buoys, at sea. Each detection is visualised with a bounding box and relevant metrics are displayed next to the image category. For this purpose images are filtered from the Pascal VOC for training.</p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/maritime_object_detection-6b8d8bbd.png"><img src="/_app/immutable/assets/maritime_object_detection-6b8d8bbd.png" alt="Detection of Maritime Objects preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="04_drifter_movement_simulation"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Simulation of Drifter Advection compared to Real-Life Data</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">September 2022</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/undefined/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">Numerical Simulation</div><div class="pill svelte-1d8a62h">Oceanography</div><div class="pill svelte-1d8a62h">MATLAB</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">drifter simulation</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p><code>drifter_simulation</code> - A simulation of drifter advection is created for the Toulon Bay. Its result is then compared to the movement of drifters set out at sea during a mission with Ifremer. Even during the time-span of five hours, the current velocities, sampled once per hour, could be used to predict drifter movement.</p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/drifter_movement_simulation-b4e4871d.png"><img src="/_app/immutable/assets/drifter_movement_simulation-b4e4871d.png" alt="Simulation of Drifter Advection compared to Real-Life Data preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="05_transmission_box"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
 <h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Transmission Box</span>
   <small class="whitespace-nowrap text-neutral-500 text-base font-normal">September 2021</small></h3>
 
@@ -196,14 +234,14 @@
 </footer>
 
 
-		<script type="module" data-sveltekit-hydrate="1cjvf5t">
-			import { start } from "./_app/immutable/start-b126b76a.js";
+		<script type="module" data-sveltekit-hydrate="csurx5">
+			import { start } from "./_app/immutable/start-1fc74d85.js";
 
 			start({
 				env: {},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="1cjvf5t"]').parentNode,
-				version: "1672268727043",
+				target: document.querySelector('[data-sveltekit-hydrate="csurx5"]').parentNode,
+				version: "1673560310705",
 				hydrate: {
 					node_ids: [0, 3],
 					data: [null,null],
