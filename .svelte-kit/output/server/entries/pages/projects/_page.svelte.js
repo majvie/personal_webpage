@@ -20,79 +20,135 @@ const Star = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   })}`;
 });
 const Star$1 = Star;
-var title$8 = "Trajectory Prediction of Unmanned Aerial Vehicles for a Telescope System";
-var date$8 = "August 2022";
+var title$a = "Trajectory Prediction of Unmanned Aerial Vehicles for a Telescope System";
+var date$a = "August 2022";
 var repo$6 = "majvie/transmission_box";
-var topics$8 = [
+var topics$a = [
   "Kalman Filter",
   "Particle Filter",
   "C++"
 ];
-var lead$8 = "bachelor thesis @ TU Vienna";
-var image$8 = "trajectory_prediction.png";
-var content$8 = "`trajectory_prediction` - For my bachelor thesis I implemented a method for tracking UAVs for cases of malfunctioning object trackers and object occlusion, comparing the performance of Kalman and Particle Filter based approaches. I achieved a significant improvement in robustness for occluded and noisy trackers.";
+var lead$a = "bachelor thesis @ TU Vienna";
+var image$a = "trajectory_prediction.png";
+var content$a = "`trajectory_prediction` - For my bachelor thesis I implemented a method for tracking UAVs for cases of malfunctioning object trackers and object occlusion, comparing the performance of Kalman and Particle Filter based approaches. I achieved a significant improvement in robustness for occluded and noisy trackers.";
 const _01_trajectory_prediction = {
+  title: title$a,
+  date: date$a,
+  repo: repo$6,
+  topics: topics$a,
+  lead: lead$a,
+  image: image$a,
+  content: content$a
+};
+const __vite_glob_0_0 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  title: title$a,
+  date: date$a,
+  repo: repo$6,
+  topics: topics$a,
+  lead: lead$a,
+  image: image$a,
+  content: content$a,
+  default: _01_trajectory_prediction
+}, Symbol.toStringTag, { value: "Module" }));
+var title$9 = "Fish Classification";
+var date$9 = "December 2022";
+var repo$5 = "majvie/fish_categorisation";
+var topics$9 = [
+  "Machine Learning",
+  "CNN",
+  "pytorch"
+];
+var lead$9 = "fish classification using CNNs";
+var image$9 = "fish_classification.png";
+var content$9 = "`fish_classification` - This project involves using CNNs and PyTorch to classify fish images into different categories. We will train a model on a dataset of fish images and use it to predict the class of new, unseen images. Finally its performance is compared to a fine-tuned AlexNet and a MobileNet to explore Transfer Learning.";
+const _02_fish_classification = {
+  title: title$9,
+  date: date$9,
+  repo: repo$5,
+  topics: topics$9,
+  lead: lead$9,
+  image: image$9,
+  content: content$9
+};
+const __vite_glob_0_1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  title: title$9,
+  date: date$9,
+  repo: repo$5,
+  topics: topics$9,
+  lead: lead$9,
+  image: image$9,
+  content: content$9,
+  default: _02_fish_classification
+}, Symbol.toStringTag, { value: "Module" }));
+var title$8 = "Detection of Maritime Objects";
+var date$8 = "January 2023";
+var topics$8 = [
+  "Object Detection",
+  "R-CNN",
+  "pytorch"
+];
+var lead$8 = "detecting sailboats at sea";
+var image$8 = "maritime_object_detection.png";
+var content$8 = "`object_detection` - A Faster R-CNN is trained to detect and categorize maritime objects, such as sailboats and buoys, at sea. Each detection is visualised with a bounding box and relevant metrics are displayed next to the image category. For this purpose images are filtered from the Pascal VOC for training.";
+const _03_maritime_object_detection = {
   title: title$8,
   date: date$8,
-  repo: repo$6,
   topics: topics$8,
   lead: lead$8,
   image: image$8,
   content: content$8
 };
-const __vite_glob_0_0 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_0_2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   title: title$8,
   date: date$8,
-  repo: repo$6,
   topics: topics$8,
   lead: lead$8,
   image: image$8,
   content: content$8,
-  default: _01_trajectory_prediction
+  default: _03_maritime_object_detection
 }, Symbol.toStringTag, { value: "Module" }));
-var title$7 = "Fish Classification";
-var date$7 = "December 2022";
-var repo$5 = "majvie/fish_categorisation";
+var title$7 = "Simulation of Drifter Advection compared to Real-Life Data";
+var date$7 = "October 2022";
 var topics$7 = [
-  "Machine Learning",
-  "CNN",
-  "pytorch"
+  "Numerical Simulation",
+  "Oceanography",
+  "MATLAB"
 ];
-var lead$7 = "fish classification using CNNs";
-var image$7 = "fish_classification.png";
-var content$7 = "`fish_classification` - This project involves using CNNs and PyTorch to classify fish images into different categories. We will train a model on a dataset of fish images and use it to predict the class of new, unseen images. Finally its performance is compared to a fine-tuned AlexNet and a MobileNet to explore Transfer Learning.";
-const _02_fish_classification = {
+var lead$7 = "drifter simulation";
+var image$7 = "drifter_movement_simulation.png";
+var content$7 = "`drifter_simulation` - A simulation of drifter advection is created for the Toulon Bay. Its result is then compared to the movement of drifters set out at sea during a mission with Ifremer. Even during the time-span of five hours, the current velocities, sampled once per hour, could be used to predict drifter movement.";
+const _04_drifter_movement_simulation = {
   title: title$7,
   date: date$7,
-  repo: repo$5,
   topics: topics$7,
   lead: lead$7,
   image: image$7,
   content: content$7
 };
-const __vite_glob_0_1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_0_3 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   title: title$7,
   date: date$7,
-  repo: repo$5,
   topics: topics$7,
   lead: lead$7,
   image: image$7,
   content: content$7,
-  default: _02_fish_classification
+  default: _04_drifter_movement_simulation
 }, Symbol.toStringTag, { value: "Module" }));
-var title$6 = "Detection of Maritime Objects";
+var title$6 = "Localisation of a Sonar Transmitter in shallow water using Time-Reversal";
 var date$6 = "January 2023";
 var topics$6 = [
-  "Object Detection",
-  "R-CNN",
-  "pytorch"
+  "Localisation",
+  "Oceanography",
+  "MATLAB"
 ];
-var lead$6 = "detecting sailboats at sea";
-var image$6 = "maritime_object_detection.png";
-var content$6 = "`object_detection` - A Faster R-CNN is trained to detect and categorize maritime objects, such as sailboats and buoys, at sea. Each detection is visualised with a bounding box and relevant metrics are displayed next to the image category. For this purpose images are filtered from the Pascal VOC for training.";
-const _03_maritime_object_detection = {
+var lead$6 = "sonar localisation";
+var image$6 = "sonar_localisation.png";
+var content$6 = "`sonar_localisation` - A sonar transmitter is located in shallow waters, using the knowledge of the Green's function of the environment, taking into account reflections at the fluid interfaces. Assuming a stable environment the signals recorded by an  array of receivers is setn back to the source, creating a peak at the source's original location.";
+const _05_localisation_sonar_source = {
   title: title$6,
   date: date$6,
   topics: topics$6,
@@ -100,7 +156,7 @@ const _03_maritime_object_detection = {
   image: image$6,
   content: content$6
 };
-const __vite_glob_0_2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_0_4 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   title: title$6,
   date: date$6,
@@ -108,97 +164,96 @@ const __vite_glob_0_2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.def
   lead: lead$6,
   image: image$6,
   content: content$6,
-  default: _03_maritime_object_detection
+  default: _05_localisation_sonar_source
 }, Symbol.toStringTag, { value: "Module" }));
-var title$5 = "Simulation of Drifter Advection compared to Real-Life Data";
-var date$5 = "October 2022";
+var title$5 = "Transmission Box";
+var date$5 = "October 2021";
+var repo$4 = "majvie/transmission_box";
 var topics$5 = [
-  "Numerical Simulation",
-  "Oceanography",
-  "MATLAB"
+  "Mechanical Engineering",
+  "Mechanical Design",
+  "Clutch"
 ];
-var lead$5 = "drifter simulation";
-var image$5 = "drifter_movement_simulation.png";
-var content$5 = "`drifter_simulation` - A simulation of drifter advection is created for the Toulon Bay. Its result is then compared to the movement of drifters set out at sea during a mission with Ifremer. Even during the time-span of five hours, the current velocities, sampled once per hour, could be used to predict drifter movement.";
-const _04_drifter_movement_simulation = {
+var lead$5 = "design and calculations for a transmission box";
+var image$5 = "transmission_box.png";
+var content$5 = "[`transmission_box`](https://github.com/majvie/transmission_box)- Design, Calculations and Dimensioning of a Transmission Box, clutches and roll for roll forming according to DIN and ISO standards. As the team leader I was responsible for the calculations and design of parts of the transmission as well as the hydraulically actuated multi-plate clutch and for project management.";
+const _05_transmission_box = {
   title: title$5,
   date: date$5,
+  repo: repo$4,
   topics: topics$5,
   lead: lead$5,
   image: image$5,
   content: content$5
 };
-const __vite_glob_0_3 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_0_5 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   title: title$5,
   date: date$5,
+  repo: repo$4,
   topics: topics$5,
   lead: lead$5,
   image: image$5,
   content: content$5,
-  default: _04_drifter_movement_simulation
+  default: _05_transmission_box
 }, Symbol.toStringTag, { value: "Module" }));
-var title$4 = "Transmission Box";
-var date$4 = "October 2021";
-var repo$4 = "majvie/transmission_box";
+var title$4 = "Chess Board";
+var date$4 = new Date(16172352e5);
+var repo$3 = "majvie/chessboard";
 var topics$4 = [
-  "Mechanical Engineering",
-  "Mechanical Design",
-  "Clutch"
+  "CAD",
+  "chess",
+  "3D Printing"
 ];
-var lead$4 = "design and calculations for a transmission box";
-var image$4 = "transmission_box.png";
-var content$4 = "[`transmission_box`](https://github.com/majvie/transmission_box)- Design, Calculations and Dimensioning of a Transmission Box, clutches and roll for roll forming according to DIN and ISO standards. As the team leader I was responsible for the calculations and design of parts of the transmission as well as the hydraulically actuated multi-plate clutch and for project management.";
-const _05_transmission_box = {
+var lead$4 = "3D printing a chessboard";
+var image$4 = "chessboard.png";
+var content$4 = "[`chessboard`](https://github.com/majvie/chessboard) - This project involves creating chess pieces using CAD software for 3D printing. The pieces are designed Fusion 360 after which the Ender-3 is used for 3D printing.";
+const chess_board = {
   title: title$4,
   date: date$4,
-  repo: repo$4,
+  repo: repo$3,
   topics: topics$4,
   lead: lead$4,
   image: image$4,
   content: content$4
 };
-const __vite_glob_0_4 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_0_6 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   title: title$4,
   date: date$4,
-  repo: repo$4,
+  repo: repo$3,
   topics: topics$4,
   lead: lead$4,
   image: image$4,
   content: content$4,
-  default: _05_transmission_box
+  default: chess_board
 }, Symbol.toStringTag, { value: "Module" }));
-var title$3 = "Chess Board";
-var date$3 = new Date(16172352e5);
-var repo$3 = "majvie/chessboard";
+var title$3 = "Modelling of a Hexabot leg";
+var date$3 = "October 2022";
 var topics$3 = [
-  "CAD",
-  "chess",
-  "3D Printing"
+  "Inverse Kinematics",
+  "MATLAB"
 ];
-var lead$3 = "3D printing a chessboard";
-var image$3 = "chessboard.png";
-var content$3 = "[`chessboard`](https://github.com/majvie/chessboard) - This project involves creating chess pieces using CAD software for 3D printing. The pieces are designed Fusion 360 after which the Ender-3 is used for 3D printing.";
-const chess_board = {
+var lead$3 = "inverse_kinematics";
+var image$3 = "hexabot.png";
+var content$3 = "`inverse_kinematics` - To control the movement of the end-effector along a predefined trajectory, the leg of a Hexabot robot is first modelled mechanically, after which the position of the actuated joints can be determined using inverse kinematics.";
+const hexabot$1 = {
   title: title$3,
   date: date$3,
-  repo: repo$3,
   topics: topics$3,
   lead: lead$3,
   image: image$3,
   content: content$3
 };
-const __vite_glob_0_5 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_0_7 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   title: title$3,
   date: date$3,
-  repo: repo$3,
   topics: topics$3,
   lead: lead$3,
   image: image$3,
   content: content$3,
-  default: chess_board
+  default: hexabot$1
 }, Symbol.toStringTag, { value: "Module" }));
 var title$2 = "HDD Based Line Follower";
 var date$2 = "March 2022";
@@ -220,7 +275,7 @@ const line_follower$1 = {
   image: image$2,
   content: content$2
 };
-const __vite_glob_0_6 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_0_8 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   title: title$2,
   date: date$2,
@@ -251,7 +306,7 @@ const mnist_class$1 = {
   image: image$1,
   content: content$1
 };
-const __vite_glob_0_7 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_0_9 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   title: title$1,
   date: date$1,
@@ -282,7 +337,7 @@ const pong_clone$1 = {
   image,
   content
 };
-const __vite_glob_0_8 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_0_10 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   title,
   date,
@@ -308,33 +363,43 @@ const __vite_glob_1_2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.def
   __proto__: null,
   default: fish_classification
 }, Symbol.toStringTag, { value: "Module" }));
-const line_follower = "/_app/immutable/assets/line_follower-2f1a511f.png";
+const hexabot = "/_app/immutable/assets/hexabot-8481116c.png";
 const __vite_glob_1_3 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  default: hexabot
+}, Symbol.toStringTag, { value: "Module" }));
+const line_follower = "/_app/immutable/assets/line_follower-2f1a511f.png";
+const __vite_glob_1_4 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: line_follower
 }, Symbol.toStringTag, { value: "Module" }));
 const maritime_object_detection = "/_app/immutable/assets/maritime_object_detection-6b8d8bbd.png";
-const __vite_glob_1_4 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_1_5 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: maritime_object_detection
 }, Symbol.toStringTag, { value: "Module" }));
 const mnist_class = "data:image/png;base64,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";
-const __vite_glob_1_5 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_1_6 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: mnist_class
 }, Symbol.toStringTag, { value: "Module" }));
 const pong_clone = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAADpCAMAAACp8fr0AAAAnFBMVEUAAADT09P///8+Pj6Hh4fLy8vV1dWKiopmZmaOjo7a2tpjY2PPz8/Y2NgpKSkICAgEBASysrJCQkI6OjogICCDg4Pc3NzZ2dnX19d6enokJCQsLCx+fn5zc3OlpaWPj49FRUUwMDAQEBA1NTUbGxvQ0NBdXV1JSUkWFhaRkZGJiYlXV1dRUVGqqqqSkpK5ubm2traUlJSgoKCWlpZlGF1uAAADLklEQVR42uzd25LSQBRG4YZQhIAcTIgwEI4TZyDKwPs/nd1Ra27U6m1Z7k6yvkf4L7r2Kgowu3EPnhiLsWqMJcBYmsxrPAjNrefc80FoTIAmH+xWw8rAe6zYgLEYS81oPR6PPx0MPGRPzlcDAEB3bV6dk4GHSW+9Xo85SrngGcsfYwnRhlrqNixoQwBAly2PFm0oacPEgAuesXwxlqbRkDakDQEA8LZMj9bWwMOINuSCdxhLgLFkaEM12VNRFLQhAKDTlqlDG9KGFhe8J8YSYCwZ2lBNVlg5bQgA6LJl5MwMvNpwOp3ShlzwjCXAWDK0oZqsyPOcNgQAdFqZWbQhbehwwXtiLAHG0vLehrxZXqK6Db8YAAC6q8ycjQFtyAXvi7EEGEuGNlQT5daANgQAqNgcU6s0yspnS78N53/+2uO174zM32hfG876zmNufi0JY6xALvjvY31kLMbq5FiBtGEzxorc//zqt2EzxgoEYzFWjbEEGEugo2OVz87SSHVyrKDaMPSxuOAZ6wfGEqENtdRtWNGGTcJYjFVjLAHGEujoWJeTRRvShg4XvDfGEujkWG9hjDUarlarUNrw/ruxXm77/f6WGmXRoKqqWL0Ny3qN3cIAAPD/XU6Oehs2QyBt2AyBXPDNwFiM9a6FbdgM6SCOY/02BABA0WXr0Ia0ocUF74mxBBhLhjZUk1Y2DZMXA198tgkA7XOZbS31n8RpBtpQYPKZC57csRhLiDbUksZJkhxoQz8LizYEgPY5zxzakDZ0aEN/5I4nxhKiDbWk8eFwuNKGfhbEIQC00nlj0Ya0YY029EfueGIsGd4sNWlyvV7faEONNjxHzszAQ9R39gaMxVi+GEvYhs6FsRTurO398Xjcd6ad/nEbLs7O3LQTucNYPwX9Zn1rzw5SKAShMAorvSaPoCgbRhEUNBGs/e8tFZrfmRc53xL+gdyDddtW732gDUUG/g0BoE67i2IbgjvLaG7DupE7jPXhzSpmu0IID20oMvQJbQgA1dldQhtyZ0W0oRy5I8VYJZ15rJ/Rx42NMtOc36x7arQxi2216WxytOqY5W8hxFiMlTFWSS+n7VxGzUkCkAAAAABJRU5ErkJggg==";
-const __vite_glob_1_6 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_1_7 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: pong_clone
 }, Symbol.toStringTag, { value: "Module" }));
+const sonar_localisation = "/_app/immutable/assets/sonar_localisation-0df436af.png";
+const __vite_glob_1_8 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  default: sonar_localisation
+}, Symbol.toStringTag, { value: "Module" }));
 const trajectory_prediction = "/_app/immutable/assets/trajectory_prediction-6c9362a8.png";
-const __vite_glob_1_7 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_1_9 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: trajectory_prediction
 }, Symbol.toStringTag, { value: "Module" }));
 const transmission_box = "/_app/immutable/assets/transmission_box-68eb8a75.png";
-const __vite_glob_1_8 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const __vite_glob_1_10 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: transmission_box
 }, Symbol.toStringTag, { value: "Module" }));
@@ -411,8 +476,8 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let projectsByTitle;
   let $$unsubscribe_page;
   $$unsubscribe_page = subscribe(page, (value) => value);
-  const projects = /* @__PURE__ */ Object.assign({ "../../projects/01_trajectory_prediction.md": __vite_glob_0_0, "../../projects/02_fish_classification.md": __vite_glob_0_1, "../../projects/03_maritime_object_detection.md": __vite_glob_0_2, "../../projects/04_drifter_movement_simulation.md": __vite_glob_0_3, "../../projects/05_transmission_box.md": __vite_glob_0_4, "../../projects/chess_board.md": __vite_glob_0_5, "../../projects/line_follower.md": __vite_glob_0_6, "../../projects/mnist_class.md": __vite_glob_0_7, "../../projects/pong_clone.md": __vite_glob_0_8 });
-  const images = /* @__PURE__ */ Object.assign({ "../../projects/chessboard.png": __vite_glob_1_0, "../../projects/drifter_movement_simulation.png": __vite_glob_1_1, "../../projects/fish_classification.png": __vite_glob_1_2, "../../projects/line_follower.png": __vite_glob_1_3, "../../projects/maritime_object_detection.png": __vite_glob_1_4, "../../projects/mnist_class.png": __vite_glob_1_5, "../../projects/pong_clone.png": __vite_glob_1_6, "../../projects/trajectory_prediction.png": __vite_glob_1_7, "../../projects/transmission_box.png": __vite_glob_1_8 });
+  const projects = /* @__PURE__ */ Object.assign({ "../../projects/01_trajectory_prediction.md": __vite_glob_0_0, "../../projects/02_fish_classification.md": __vite_glob_0_1, "../../projects/03_maritime_object_detection.md": __vite_glob_0_2, "../../projects/04_drifter_movement_simulation.md": __vite_glob_0_3, "../../projects/05_localisation_sonar_source.md": __vite_glob_0_4, "../../projects/05_transmission_box.md": __vite_glob_0_5, "../../projects/chess_board.md": __vite_glob_0_6, "../../projects/hexabot.md": __vite_glob_0_7, "../../projects/line_follower.md": __vite_glob_0_8, "../../projects/mnist_class.md": __vite_glob_0_9, "../../projects/pong_clone.md": __vite_glob_0_10 });
+  const images = /* @__PURE__ */ Object.assign({ "../../projects/chessboard.png": __vite_glob_1_0, "../../projects/drifter_movement_simulation.png": __vite_glob_1_1, "../../projects/fish_classification.png": __vite_glob_1_2, "../../projects/hexabot.png": __vite_glob_1_3, "../../projects/line_follower.png": __vite_glob_1_4, "../../projects/maritime_object_detection.png": __vite_glob_1_5, "../../projects/mnist_class.png": __vite_glob_1_6, "../../projects/pong_clone.png": __vite_glob_1_7, "../../projects/sonar_localisation.png": __vite_glob_1_8, "../../projects/trajectory_prediction.png": __vite_glob_1_9, "../../projects/transmission_box.png": __vite_glob_1_10 });
   let stars = null;
   projectsByDate = Object.keys(projects).sort((a, b) => projects[b].date - projects[a].date);
   projectsByTitle = Object.keys(projects).sort((a, b) => {
