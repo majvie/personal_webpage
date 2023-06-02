@@ -23,46 +23,38 @@ const WritingList = create_ssr_component(($$result, $$props, $$bindings, slots) 
     </a>`;
   })}</div>`;
 });
-var data = {
-  papers: [
-    {
-      title: "Trajectory Prediction for Telescope Based UAV Tracking",
-      date: new Date(16566336e5),
-      summary: "Bachelor thesis comparing the use of Kalman and Particle filters for object tracking, improving the performance in cases of object occlusion and jumping trackers.\n",
-      link: "/assets/pdf/Vieweg_TrajectoryPrediction.pdf"
-    },
-    {
-      title: "Oceanography Report",
-      date: new Date(16732224e5),
-      summary: "Report from the class 'Oceanography', describing the cast of CTD's and the comparison between simulated drifter advection and data recorded with Ifremer. \n",
-      link: "/assets/pdf/Vieweg_Oceanography_Trip_Report.pdf"
-    },
-    {
-      title: "Transmission Box Report (GER)",
-      date: new Date(16304544e5),
-      summary: "Report from the class 'Machine Design - Project', describing calculations for a transmission box, using DIN and ISO norms\n",
-      link: "/assets/pdf/e11806443_Berechnung.pdf"
-    },
-    {
-      title: "Modelling of a Hexabot Leg in MATLAB",
-      date: new Date(16645824e5),
-      summary: "Report from the class 'Kinematics and Geometric Modelling', describing reverse kinematics modelling for a hexabot leg\n",
-      link: "/assets/pdf/lab_kinematic_chains.pdf"
-    },
-    {
-      title: "The Cultural Revolution in China (GER)",
-      date: new Date(14859072e5),
-      summary: "High school thesis on the Chinese Cultural Revolution, including an interview held and translated by myself\n",
-      link: "/assets/pdf/Vieweg_DieKulturrevolutionInChina.pdf"
-    }
-  ],
-  notes: [{
-    title: "Stat 211: Statistical Inference",
-    date: new Date(16383168e5),
-    summary: "Graduate-level class discussing inference on statistical models, frequentist and Bayesian perspectives.\n",
+var data = { papers: [
+  {
+    title: "Trajectory Prediction for Telescope Based UAV Tracking",
+    date: new Date(16566336e5),
+    summary: "Bachelor thesis comparing the use of Kalman and Particle filters for object tracking, improving the performance in cases of object occlusion and jumping trackers.\n",
     link: "/assets/pdf/Vieweg_TrajectoryPrediction.pdf"
-  }]
-};
+  },
+  {
+    title: "Oceanography Report",
+    date: new Date(16732224e5),
+    summary: "Report from the class 'Oceanography', describing the cast of CTD's and the comparison between simulated drifter advection and data recorded with Ifremer. \n",
+    link: "/assets/pdf/Vieweg_Oceanography_Trip_Report.pdf"
+  },
+  {
+    title: "Summary - Adaptive missions for underwater vehicles",
+    date: new Date(1685664e6),
+    summary: "Summary of three papers on the topic of adaptive missions for underwater vehicles.\n",
+    link: "/assets/pdf/NTNU_Intro.pdf"
+  },
+  {
+    title: "Transmission Box Report (GER)",
+    date: new Date(16304544e5),
+    summary: "Report from the class 'Machine Design - Project', describing calculations for a transmission box, using DIN and ISO norms\n",
+    link: "/assets/pdf/e11806443_Berechnung.pdf"
+  },
+  {
+    title: "The Cultural Revolution in China (GER)",
+    date: new Date(14859072e5),
+    summary: "High school thesis on the Chinese Cultural Revolution, including an interview held and translated by myself\n",
+    link: "/assets/pdf/Vieweg_DieKulturrevolutionInChina.pdf"
+  }
+] };
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(Seo, "Seo").$$render(
     $$result,

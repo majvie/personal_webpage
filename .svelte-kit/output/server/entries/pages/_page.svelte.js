@@ -34,23 +34,23 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     $$result,
     {
       title: "Maximilian J. Vieweg",
-      description: "Robotics Engineer, graduate student."
+      description: "Robotics Engineer, master student"
     },
     {},
     {}
   )}
 
 <p class="${"layout-md text-black text-xl leading-tight font-light mb-16 svelte-ikj1jd"}" id="${"eric-is"}"><span class="${"g svelte-ikj1jd"}">is a</span> robotics engineer <span class="${"g svelte-ikj1jd"}">and </span><br>
-  graduate student<span class="${"g svelte-ikj1jd"}">.</span></p>
+  master student<span class="${"g svelte-ikj1jd"}">.</span></p>
 
 <div class="${"layout-md text-lg space-y-14"}"><div class="${"space-y-5"}"><p>I study robotics at the Instituto Técnico Lisboa and the Université de
       Toulon.
     </p>
 
-    <p>I want to pursue a career in research, using computation methods to
-      explain real life phenomena. My generalist background in mechatronics
-      engineering gave me the tools to understand phyiscal systems; now I want
-      to use that knowledge to analyse them using machine learning methods.
+    <p>I am currently looking for PhD positions, where I can use my generalist
+      background. My undergraduate degree in mechatronics gave me a broad
+      foundation of cyber-physical systems, which I am now expanding with a
+      master degree in robotics.
     </p></div>
 
   <div class="${"leading-snug space-y-4"}"><p class="${"pb-2"}">Notable projects:</p>

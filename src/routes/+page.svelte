@@ -30,7 +30,7 @@
 
 <Seo
   title="Maximilian J. Vieweg"
-  description="Robotics Engineer, graduate student."
+  description="Robotics Engineer, master student"
 />
 
 <p
@@ -39,7 +39,7 @@
 >
   <span class="g">is a</span> robotics engineer <span class="g"> and </span><br
   />
-  graduate student<span class="g">.</span>
+  master student<span class="g">.</span>
 </p>
 
 <div class="layout-md text-lg space-y-14">
@@ -50,10 +50,10 @@
     </p>
 
     <p>
-      I want to pursue a career in research, using computation methods to
-      explain real life phenomena. My generalist background in mechatronics
-      engineering gave me the tools to understand phyiscal systems; now I want
-      to use that knowledge to analyse them using machine learning methods.
+      I am currently looking for PhD positions, where I can use my generalist
+      background. My undergraduate degree in mechatronics gave me a broad
+      foundation of cyber-physical systems, which I am now expanding with a
+      master degree in robotics.
     </p>
   </div>
 

@@ -11,17 +11,17 @@ papers:
       Report from the class 'Oceanography', describing the cast of CTD's and the comparison between simulated drifter advection and data recorded with Ifremer. 
     link: /assets/pdf/Vieweg_Oceanography_Trip_Report.pdf
 
+  - title: Summary - Adaptive missions for underwater vehicles
+    date: 2023-06-02
+    summary: >
+      Summary of three papers on the topic of adaptive missions for underwater vehicles.
+    link: /assets/pdf/NTNU_Intro.pdf
+
   - title: Transmission Box Report (GER)
     date: 2021-09-01
     summary: >
       Report from the class 'Machine Design - Project', describing calculations for a transmission box, using DIN and ISO norms
     link: /assets/pdf/e11806443_Berechnung.pdf
-
-  - title: Modelling of a Hexabot Leg in MATLAB
-    date: 2022-10-01
-    summary: >
-      Report from the class 'Kinematics and Geometric Modelling', describing reverse kinematics modelling for a hexabot leg
-    link: /assets/pdf/lab_kinematic_chains.pdf
 
   - title: The Cultural Revolution in China (GER)
     date: 2017-02-01
@@ -29,10 +29,3 @@ papers:
       High school thesis on the Chinese Cultural Revolution, including an interview held and translated by myself
     link: /assets/pdf/Vieweg_DieKulturrevolutionInChina.pdf
 
-notes:
-  - title: "Stat 211: Statistical Inference"
-    date: 2021-12-01
-    summary: >
-      Graduate-level class discussing inference on statistical models,
-      frequentist and Bayesian perspectives.
-    link: /assets/pdf/Vieweg_TrajectoryPrediction.pdf
