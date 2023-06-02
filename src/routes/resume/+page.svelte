@@ -14,7 +14,7 @@
     <h2>
       <a
         class="link"
-        href="https://drive.google.com/file/d/18W0d2tIXBUBEB_hkNt9mVtpIBShcVKxC/view"
+        href="https://drive.google.com/drive/folders/1BCYqXK22BOwYmRxizxsEz0RmXPknXWHi?usp=sharing"
         >Curriculum Vitae</a
       >
     </h2>
