@@ -64,7 +64,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     {}
   )}
 
-<section class="${"layout-md py-0"}"><div class="${"flex justify-between items-end"}"><h2><a class="${"link"}" href="${"https://drive.google.com/file/d/18W0d2tIXBUBEB_hkNt9mVtpIBShcVKxC/view"}">Curriculum Vitae</a></h2>
+<section class="${"layout-md py-0"}"><div class="${"flex justify-between items-end"}"><h2><a class="${"link"}" href="${"https://drive.google.com/drive/folders/1BCYqXK22BOwYmRxizxsEz0RmXPknXWHi?usp=sharing"}">Curriculum Vitae</a></h2>
     <div class="${"text-neutral-500 mb-1"}">Download the latest version</div></div></section>
 
 <section class="${"layout-md py-10"}"><h2 class="${"heading2"}">Education</h2>
