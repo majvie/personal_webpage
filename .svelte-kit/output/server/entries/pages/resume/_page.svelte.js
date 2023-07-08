@@ -168,7 +168,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   ${validate_component(Workplace, "Workplace").$$render(
     $$result,
     {
-      title: "Robotics Internship",
+      title: "Control Systems Development Internship",
       company: "Amazon",
       url: "https://amazon.com/",
       dates: "07/2020 ‐ 10/2020",

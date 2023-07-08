@@ -63,6 +63,7 @@ declare module '$env/static/private' {
 	export const npm_package_json: string;
 	export const _: string;
 	export const CONDA_MKL_INTERFACE_LAYER_BACKUP: string;
+	export const LaunchInstanceID: string;
 	export const npm_config_userconfig: string;
 	export const npm_config_init_module: string;
 	export const CONDA_PREFIX: string;
@@ -70,6 +71,7 @@ declare module '$env/static/private' {
 	export const __CFBundleIdentifier: string;
 	export const npm_command: string;
 	export const PWD: string;
+	export const VSCODE_NONCE: string;
 	export const npm_lifecycle_event: string;
 	export const EDITOR: string;
 	export const P9K_SSH: string;
@@ -96,6 +98,7 @@ declare module '$env/static/private' {
 	export const VSCODE_GIT_ASKPASS_NODE: string;
 	export const GIT_ASKPASS: string;
 	export const DISPLAY: string;
+	export const SECURITYSESSIONID: string;
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
 	export const COLORTERM: string;
@@ -166,6 +169,7 @@ declare module '$env/dynamic/private' {
 		npm_package_json: string;
 		_: string;
 		CONDA_MKL_INTERFACE_LAYER_BACKUP: string;
+		LaunchInstanceID: string;
 		npm_config_userconfig: string;
 		npm_config_init_module: string;
 		CONDA_PREFIX: string;
@@ -173,6 +177,7 @@ declare module '$env/dynamic/private' {
 		__CFBundleIdentifier: string;
 		npm_command: string;
 		PWD: string;
+		VSCODE_NONCE: string;
 		npm_lifecycle_event: string;
 		EDITOR: string;
 		P9K_SSH: string;
@@ -199,6 +204,7 @@ declare module '$env/dynamic/private' {
 		VSCODE_GIT_ASKPASS_NODE: string;
 		GIT_ASKPASS: string;
 		DISPLAY: string;
+		SECURITYSESSIONID: string;
 		npm_node_execpath: string;
 		npm_config_prefix: string;
 		COLORTERM: string;

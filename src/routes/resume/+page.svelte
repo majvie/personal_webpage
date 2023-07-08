@@ -106,7 +106,7 @@
   <h2 class="heading2">Professional Experience</h2>
 
   <Workplace
-    title="Robotics Internship"
+    title="Control Systems Development Internship"
     company="Amazon"
     url="https://amazon.com/"
     dates="07/2020 ‐ 10/2020"
