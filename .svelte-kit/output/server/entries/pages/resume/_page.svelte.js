@@ -95,7 +95,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     $$result,
     {
       title: "M.Sc. Engineering of Complex Systems — Marine and Maritime Intelligent Robotics",
-      uni: "niversité de Toulon",
+      uni: "Université de Toulon",
       url: "https://www.master-mir.eu/",
       dates: "09/2022 - 06/2023",
       location: "Toulon, France"
