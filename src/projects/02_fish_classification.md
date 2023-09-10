@@ -1,6 +1,6 @@
 ---
 title: Fish Classification
-date: December 2022
+date: 2022-12-01
 repo: majvie/fish_categorisation
 topics: ["Machine Learning", "CNN", "pytorch"]
 lead: fish classification using CNNs

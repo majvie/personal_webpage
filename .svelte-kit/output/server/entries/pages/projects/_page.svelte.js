@@ -1,4 +1,4 @@
-import { c as create_ssr_component, v as validate_component, e as escape, d as each, f as add_attribute, o as add_classes, b as subscribe } from "../../../chunks/index.js";
+import { c as create_ssr_component, v as validate_component, e as escape, d as each, f as add_attribute, g as add_classes, b as subscribe } from "../../../chunks/index.js";
 import { p as page } from "../../../chunks/stores.js";
 import { S as Seo } from "../../../chunks/Seo.js";
 import { I as Icon } from "../../../chunks/Icon.js";
@@ -21,7 +21,7 @@ const Star = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 });
 const Star$1 = Star;
 var title$a = "Trajectory Prediction of Unmanned Aerial Vehicles for a Telescope System";
-var date$a = "August 2022";
+var date$a = /* @__PURE__ */ new Date(1659312e6);
 var repo$6 = "majvie/transmission_box";
 var topics$a = [
   "Kalman Filter",
@@ -42,30 +42,27 @@ const _01_trajectory_prediction = {
 };
 const __vite_glob_0_0 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  title: title$a,
-  date: date$a,
-  repo: repo$6,
-  topics: topics$a,
-  lead: lead$a,
-  image: image$a,
   content: content$a,
-  default: _01_trajectory_prediction
+  date: date$a,
+  default: _01_trajectory_prediction,
+  image: image$a,
+  lead: lead$a,
+  repo: repo$6,
+  title: title$a,
+  topics: topics$a
 }, Symbol.toStringTag, { value: "Module" }));
-var title$9 = "Fish Classification";
-var date$9 = "December 2022";
-var repo$5 = "majvie/fish_categorisation";
+var title$9 = "Arctic Underwater Robotics Field Work";
+var date$9 = /* @__PURE__ */ new Date(1690848e6);
 var topics$9 = [
-  "Machine Learning",
-  "CNN",
-  "pytorch"
+  "Autonomous Underwater Vehicles",
+  "Arctic"
 ];
-var lead$9 = "fish classification using CNNs";
-var image$9 = "fish_classification.png";
-var content$9 = "`fish_classification` - This project involves using CNNs and PyTorch to classify fish images into different categories. We will train a model on a dataset of fish images and use it to predict the class of new, unseen images. Finally its performance is compared to a fine-tuned AlexNet and a MobileNet to explore Transfer Learning.";
-const _02_fish_classification = {
+var lead$9 = "field work in Svalbard";
+var image$9 = "arctic_underwater_robotics.png";
+var content$9 = "`arctic_underwater_robotics` - During my course at the University Center in Svalbard, I participated in a field mission to sample water columns in fjords surrounding Longyearbyen. We obtained side-scan sonar data, as well as sea-water properties during multiple dives near local glaciers.";
+const _02_arctic_underwater_robotics = {
   title: title$9,
   date: date$9,
-  repo: repo$5,
   topics: topics$9,
   lead: lead$9,
   image: image$9,
@@ -73,28 +70,29 @@ const _02_fish_classification = {
 };
 const __vite_glob_0_1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  title: title$9,
-  date: date$9,
-  repo: repo$5,
-  topics: topics$9,
-  lead: lead$9,
-  image: image$9,
   content: content$9,
-  default: _02_fish_classification
+  date: date$9,
+  default: _02_arctic_underwater_robotics,
+  image: image$9,
+  lead: lead$9,
+  title: title$9,
+  topics: topics$9
 }, Symbol.toStringTag, { value: "Module" }));
-var title$8 = "Detection of Maritime Objects";
-var date$8 = "January 2023";
+var title$8 = "Fish Classification";
+var date$8 = /* @__PURE__ */ new Date(16698528e5);
+var repo$5 = "majvie/fish_categorisation";
 var topics$8 = [
-  "Object Detection",
-  "R-CNN",
+  "Machine Learning",
+  "CNN",
   "pytorch"
 ];
-var lead$8 = "detecting sailboats at sea";
-var image$8 = "maritime_object_detection.png";
-var content$8 = "`object_detection` - A Faster R-CNN is trained to detect and categorize maritime objects, such as sailboats and buoys, at sea. Each detection is visualised with a bounding box and relevant metrics are displayed next to the image category. For this purpose images are filtered from the Pascal VOC for training.";
-const _03_maritime_object_detection = {
+var lead$8 = "fish classification using CNNs";
+var image$8 = "fish_classification.png";
+var content$8 = "`fish_classification` - This project involves using CNNs and PyTorch to classify fish images into different categories. We will train a model on a dataset of fish images and use it to predict the class of new, unseen images. Finally its performance is compared to a fine-tuned AlexNet and a MobileNet to explore Transfer Learning.";
+const _02_fish_classification = {
   title: title$8,
   date: date$8,
+  repo: repo$5,
   topics: topics$8,
   lead: lead$8,
   image: image$8,
@@ -102,25 +100,26 @@ const _03_maritime_object_detection = {
 };
 const __vite_glob_0_2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  title: title$8,
-  date: date$8,
-  topics: topics$8,
-  lead: lead$8,
-  image: image$8,
   content: content$8,
-  default: _03_maritime_object_detection
+  date: date$8,
+  default: _02_fish_classification,
+  image: image$8,
+  lead: lead$8,
+  repo: repo$5,
+  title: title$8,
+  topics: topics$8
 }, Symbol.toStringTag, { value: "Module" }));
-var title$7 = "Simulation of Drifter Advection compared to Real-Life Data";
-var date$7 = "October 2022";
+var title$7 = "Detection of Maritime Objects";
+var date$7 = /* @__PURE__ */ new Date(16725312e5);
 var topics$7 = [
-  "Numerical Simulation",
-  "Oceanography",
-  "MATLAB"
+  "Object Detection",
+  "R-CNN",
+  "pytorch"
 ];
-var lead$7 = "drifter simulation";
-var image$7 = "drifter_movement_simulation.png";
-var content$7 = "`drifter_simulation` - A simulation of drifter advection is created for the Toulon Bay. Its result is then compared to the movement of drifters set out at sea during a mission with Ifremer. Even during the time-span of five hours, the current velocities, sampled once per hour, could be used to predict drifter movement.";
-const _04_drifter_movement_simulation = {
+var lead$7 = "detecting sailboats at sea";
+var image$7 = "maritime_object_detection.png";
+var content$7 = "`object_detection` - A Faster R-CNN is trained to detect and categorize maritime objects, such as sailboats and buoys, at sea. Each detection is visualised with a bounding box and relevant metrics are displayed next to the image category. For this purpose images are filtered from the Pascal VOC for training.";
+const _03_maritime_object_detection = {
   title: title$7,
   date: date$7,
   topics: topics$7,
@@ -130,25 +129,25 @@ const _04_drifter_movement_simulation = {
 };
 const __vite_glob_0_3 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  title: title$7,
-  date: date$7,
-  topics: topics$7,
-  lead: lead$7,
-  image: image$7,
   content: content$7,
-  default: _04_drifter_movement_simulation
+  date: date$7,
+  default: _03_maritime_object_detection,
+  image: image$7,
+  lead: lead$7,
+  title: title$7,
+  topics: topics$7
 }, Symbol.toStringTag, { value: "Module" }));
-var title$6 = "Localisation of a Sonar Transmitter in shallow water using Time-Reversal";
-var date$6 = "January 2023";
+var title$6 = "Simulation of Drifter Advection compared to Real-Life Data";
+var date$6 = /* @__PURE__ */ new Date(16645824e5);
 var topics$6 = [
-  "Localisation",
+  "Numerical Simulation",
   "Oceanography",
   "MATLAB"
 ];
-var lead$6 = "sonar localisation";
-var image$6 = "sonar_localisation.png";
-var content$6 = "`sonar_localisation` - A sonar transmitter is located in shallow waters, using the knowledge of the Green's function of the environment, taking into account reflections at the fluid interfaces. Assuming a stable environment the signals recorded by an  array of receivers is setn back to the source, creating a peak at the source's original location.";
-const _05_localisation_sonar_source = {
+var lead$6 = "drifter simulation";
+var image$6 = "drifter_movement_simulation.png";
+var content$6 = "`drifter_simulation` - A simulation of drifter advection is created for the Toulon Bay. Its result is then compared to the movement of drifters set out at sea during a mission with Ifremer. Even during the time-span of five hours, the current velocities, sampled once per hour, could be used to predict drifter movement.";
+const _04_drifter_movement_simulation = {
   title: title$6,
   date: date$6,
   topics: topics$6,
@@ -158,29 +157,27 @@ const _05_localisation_sonar_source = {
 };
 const __vite_glob_0_4 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  title: title$6,
-  date: date$6,
-  topics: topics$6,
-  lead: lead$6,
-  image: image$6,
   content: content$6,
-  default: _05_localisation_sonar_source
+  date: date$6,
+  default: _04_drifter_movement_simulation,
+  image: image$6,
+  lead: lead$6,
+  title: title$6,
+  topics: topics$6
 }, Symbol.toStringTag, { value: "Module" }));
-var title$5 = "Transmission Box";
-var date$5 = "October 2021";
-var repo$4 = "majvie/transmission_box";
+var title$5 = "Localisation of a Sonar Transmitter in shallow water using Time-Reversal";
+var date$5 = /* @__PURE__ */ new Date(16698528e5);
 var topics$5 = [
-  "Mechanical Engineering",
-  "Mechanical Design",
-  "Clutch"
+  "Localisation",
+  "Oceanography",
+  "MATLAB"
 ];
-var lead$5 = "design and calculations for a transmission box";
-var image$5 = "transmission_box.png";
-var content$5 = "[`transmission_box`](https://github.com/majvie/transmission_box)- Design, Calculations and Dimensioning of a Transmission Box, clutches and roll for roll forming according to DIN and ISO standards. As the team leader I was responsible for the calculations and design of parts of the transmission as well as the hydraulically actuated multi-plate clutch and for project management.";
-const _05_transmission_box = {
+var lead$5 = "sonar localisation";
+var image$5 = "sonar_localisation.png";
+var content$5 = "`sonar_localisation` - A sonar transmitter is located in shallow waters, using the knowledge of the Green's function of the environment, taking into account reflections at the fluid interfaces. Assuming a stable environment the signals recorded by an  array of receivers is setn back to the source, creating a peak at the source's original location.";
+const _05_localisation_sonar_source = {
   title: title$5,
   date: date$5,
-  repo: repo$4,
   topics: topics$5,
   lead: lead$5,
   image: image$5,
@@ -188,30 +185,29 @@ const _05_transmission_box = {
 };
 const __vite_glob_0_5 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  title: title$5,
-  date: date$5,
-  repo: repo$4,
-  topics: topics$5,
-  lead: lead$5,
-  image: image$5,
   content: content$5,
-  default: _05_transmission_box
+  date: date$5,
+  default: _05_localisation_sonar_source,
+  image: image$5,
+  lead: lead$5,
+  title: title$5,
+  topics: topics$5
 }, Symbol.toStringTag, { value: "Module" }));
-var title$4 = "Chess Board";
-var date$4 = new Date(16172352e5);
-var repo$3 = "majvie/chessboard";
+var title$4 = "Transmission Box";
+var date$4 = /* @__PURE__ */ new Date(16330464e5);
+var repo$4 = "majvie/transmission_box";
 var topics$4 = [
-  "CAD",
-  "chess",
-  "3D Printing"
+  "Mechanical Engineering",
+  "Mechanical Design",
+  "Clutch"
 ];
-var lead$4 = "3D printing a chessboard";
-var image$4 = "chessboard.png";
-var content$4 = "[`chessboard`](https://github.com/majvie/chessboard) - This project involves creating chess pieces using CAD software for 3D printing. The pieces are designed Fusion 360 after which the Ender-3 is used for 3D printing.";
-const chess_board = {
+var lead$4 = "design and calculations for a transmission box";
+var image$4 = "transmission_box.png";
+var content$4 = "[`transmission_box`](https://github.com/majvie/transmission_box)- Design, Calculations and Dimensioning of a Transmission Box, clutches and roll for roll forming according to DIN and ISO standards. As the team leader I was responsible for the calculations and design of parts of the transmission as well as the hydraulically actuated multi-plate clutch and for project management.";
+const _05_transmission_box = {
   title: title$4,
   date: date$4,
-  repo: repo$3,
+  repo: repo$4,
   topics: topics$4,
   lead: lead$4,
   image: image$4,
@@ -219,27 +215,30 @@ const chess_board = {
 };
 const __vite_glob_0_6 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  title: title$4,
-  date: date$4,
-  repo: repo$3,
-  topics: topics$4,
-  lead: lead$4,
-  image: image$4,
   content: content$4,
-  default: chess_board
+  date: date$4,
+  default: _05_transmission_box,
+  image: image$4,
+  lead: lead$4,
+  repo: repo$4,
+  title: title$4,
+  topics: topics$4
 }, Symbol.toStringTag, { value: "Module" }));
-var title$3 = "Modelling of a Hexabot leg";
-var date$3 = "October 2022";
+var title$3 = "Chess Board";
+var date$3 = /* @__PURE__ */ new Date(16172352e5);
+var repo$3 = "majvie/chessboard";
 var topics$3 = [
-  "Inverse Kinematics",
-  "MATLAB"
+  "CAD",
+  "chess",
+  "3D Printing"
 ];
-var lead$3 = "inverse_kinematics";
-var image$3 = "hexabot.png";
-var content$3 = "`inverse_kinematics` - To control the movement of the end-effector along a predefined trajectory, the leg of a Hexabot robot is first modelled mechanically, after which the position of the actuated joints can be determined using inverse kinematics.";
-const hexabot$1 = {
+var lead$3 = "3D printing a chessboard";
+var image$3 = "chessboard.png";
+var content$3 = "[`chessboard`](https://github.com/majvie/chessboard) - This project involves creating chess pieces using CAD software for 3D printing. The pieces are designed Fusion 360 after which the Ender-3 is used for 3D printing.";
+const chess_board = {
   title: title$3,
   date: date$3,
+  repo: repo$3,
   topics: topics$3,
   lead: lead$3,
   image: image$3,
@@ -247,16 +246,17 @@ const hexabot$1 = {
 };
 const __vite_glob_0_7 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  title: title$3,
-  date: date$3,
-  topics: topics$3,
-  lead: lead$3,
-  image: image$3,
   content: content$3,
-  default: hexabot$1
+  date: date$3,
+  default: chess_board,
+  image: image$3,
+  lead: lead$3,
+  repo: repo$3,
+  title: title$3,
+  topics: topics$3
 }, Symbol.toStringTag, { value: "Module" }));
 var title$2 = "HDD Based Line Follower";
-var date$2 = "March 2022";
+var date$2 = /* @__PURE__ */ new Date(16460928e5);
 var repo$2 = "majvie/line_follower";
 var topics$2 = [
   "Electronics",
@@ -277,17 +277,17 @@ const line_follower$1 = {
 };
 const __vite_glob_0_8 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  title: title$2,
-  date: date$2,
-  repo: repo$2,
-  topics: topics$2,
-  lead: lead$2,
-  image: image$2,
   content: content$2,
-  default: line_follower$1
+  date: date$2,
+  default: line_follower$1,
+  image: image$2,
+  lead: lead$2,
+  repo: repo$2,
+  title: title$2,
+  topics: topics$2
 }, Symbol.toStringTag, { value: "Module" }));
 var title$1 = "Handwritten Letters Classficiation";
-var date$1 = "November 2022";
+var date$1 = /* @__PURE__ */ new Date(16672608e5);
 var repo$1 = "majvie/mnist_class";
 var topics$1 = [
   "Machine Learning",
@@ -308,17 +308,17 @@ const mnist_class$1 = {
 };
 const __vite_glob_0_9 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  title: title$1,
-  date: date$1,
-  repo: repo$1,
-  topics: topics$1,
-  lead: lead$1,
-  image: image$1,
   content: content$1,
-  default: mnist_class$1
+  date: date$1,
+  default: mnist_class$1,
+  image: image$1,
+  lead: lead$1,
+  repo: repo$1,
+  title: title$1,
+  topics: topics$1
 }, Symbol.toStringTag, { value: "Module" }));
 var title = "Pong Clone";
-var date = "November 2021";
+var date = /* @__PURE__ */ new Date(16304544e5);
 var repo = "majvie/pong";
 var topics = [
   "STM 32",
@@ -339,41 +339,41 @@ const pong_clone$1 = {
 };
 const __vite_glob_0_10 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  title,
-  date,
-  repo,
-  topics,
-  lead,
-  image,
   content,
-  default: pong_clone$1
+  date,
+  default: pong_clone$1,
+  image,
+  lead,
+  repo,
+  title,
+  topics
 }, Symbol.toStringTag, { value: "Module" }));
-const chessboard = "/_app/immutable/assets/chessboard-c91ba023.png";
+const arctic_underwater_robotics = "/_app/immutable/assets/arctic_underwater_robotics.476a5514.png";
 const __vite_glob_1_0 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  default: arctic_underwater_robotics
+}, Symbol.toStringTag, { value: "Module" }));
+const chessboard = "/_app/immutable/assets/chessboard.c91ba023.png";
+const __vite_glob_1_1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: chessboard
 }, Symbol.toStringTag, { value: "Module" }));
-const drifter_movement_simulation = "/_app/immutable/assets/drifter_movement_simulation-b4e4871d.png";
-const __vite_glob_1_1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const drifter_movement_simulation = "/_app/immutable/assets/drifter_movement_simulation.b4e4871d.png";
+const __vite_glob_1_2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: drifter_movement_simulation
 }, Symbol.toStringTag, { value: "Module" }));
-const fish_classification = "/_app/immutable/assets/fish_classification-fd2ac493.png";
-const __vite_glob_1_2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const fish_classification = "/_app/immutable/assets/fish_classification.fd2ac493.png";
+const __vite_glob_1_3 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: fish_classification
 }, Symbol.toStringTag, { value: "Module" }));
-const hexabot = "/_app/immutable/assets/hexabot-8481116c.png";
-const __vite_glob_1_3 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  default: hexabot
-}, Symbol.toStringTag, { value: "Module" }));
-const line_follower = "/_app/immutable/assets/line_follower-2f1a511f.png";
+const line_follower = "/_app/immutable/assets/line_follower.2f1a511f.png";
 const __vite_glob_1_4 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: line_follower
 }, Symbol.toStringTag, { value: "Module" }));
-const maritime_object_detection = "/_app/immutable/assets/maritime_object_detection-6b8d8bbd.png";
+const maritime_object_detection = "/_app/immutable/assets/maritime_object_detection.6b8d8bbd.png";
 const __vite_glob_1_5 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: maritime_object_detection
@@ -388,17 +388,17 @@ const __vite_glob_1_7 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.def
   __proto__: null,
   default: pong_clone
 }, Symbol.toStringTag, { value: "Module" }));
-const sonar_localisation = "/_app/immutable/assets/sonar_localisation-0df436af.png";
+const sonar_localisation = "/_app/immutable/assets/sonar_localisation.0df436af.png";
 const __vite_glob_1_8 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: sonar_localisation
 }, Symbol.toStringTag, { value: "Module" }));
-const trajectory_prediction = "/_app/immutable/assets/trajectory_prediction-6c9362a8.png";
+const trajectory_prediction = "/_app/immutable/assets/trajectory_prediction.6c9362a8.png";
 const __vite_glob_1_9 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: trajectory_prediction
 }, Symbol.toStringTag, { value: "Module" }));
-const transmission_box = "/_app/immutable/assets/transmission_box-68eb8a75.png";
+const transmission_box = "/_app/immutable/assets/transmission_box.68eb8a75.png";
 const __vite_glob_1_10 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: transmission_box
@@ -476,8 +476,8 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let projectsByTitle;
   let $$unsubscribe_page;
   $$unsubscribe_page = subscribe(page, (value) => value);
-  const projects = /* @__PURE__ */ Object.assign({ "../../projects/01_trajectory_prediction.md": __vite_glob_0_0, "../../projects/02_fish_classification.md": __vite_glob_0_1, "../../projects/03_maritime_object_detection.md": __vite_glob_0_2, "../../projects/04_drifter_movement_simulation.md": __vite_glob_0_3, "../../projects/05_localisation_sonar_source.md": __vite_glob_0_4, "../../projects/05_transmission_box.md": __vite_glob_0_5, "../../projects/chess_board.md": __vite_glob_0_6, "../../projects/hexabot.md": __vite_glob_0_7, "../../projects/line_follower.md": __vite_glob_0_8, "../../projects/mnist_class.md": __vite_glob_0_9, "../../projects/pong_clone.md": __vite_glob_0_10 });
-  const images = /* @__PURE__ */ Object.assign({ "../../projects/chessboard.png": __vite_glob_1_0, "../../projects/drifter_movement_simulation.png": __vite_glob_1_1, "../../projects/fish_classification.png": __vite_glob_1_2, "../../projects/hexabot.png": __vite_glob_1_3, "../../projects/line_follower.png": __vite_glob_1_4, "../../projects/maritime_object_detection.png": __vite_glob_1_5, "../../projects/mnist_class.png": __vite_glob_1_6, "../../projects/pong_clone.png": __vite_glob_1_7, "../../projects/sonar_localisation.png": __vite_glob_1_8, "../../projects/trajectory_prediction.png": __vite_glob_1_9, "../../projects/transmission_box.png": __vite_glob_1_10 });
+  const projects = /* @__PURE__ */ Object.assign({ "../../projects/01_trajectory_prediction.md": __vite_glob_0_0, "../../projects/02_arctic_underwater_robotics.md": __vite_glob_0_1, "../../projects/02_fish_classification.md": __vite_glob_0_2, "../../projects/03_maritime_object_detection.md": __vite_glob_0_3, "../../projects/04_drifter_movement_simulation.md": __vite_glob_0_4, "../../projects/05_localisation_sonar_source.md": __vite_glob_0_5, "../../projects/05_transmission_box.md": __vite_glob_0_6, "../../projects/chess_board.md": __vite_glob_0_7, "../../projects/line_follower.md": __vite_glob_0_8, "../../projects/mnist_class.md": __vite_glob_0_9, "../../projects/pong_clone.md": __vite_glob_0_10 });
+  const images = /* @__PURE__ */ Object.assign({ "../../projects/arctic_underwater_robotics.png": __vite_glob_1_0, "../../projects/chessboard.png": __vite_glob_1_1, "../../projects/drifter_movement_simulation.png": __vite_glob_1_2, "../../projects/fish_classification.png": __vite_glob_1_3, "../../projects/line_follower.png": __vite_glob_1_4, "../../projects/maritime_object_detection.png": __vite_glob_1_5, "../../projects/mnist_class.png": __vite_glob_1_6, "../../projects/pong_clone.png": __vite_glob_1_7, "../../projects/sonar_localisation.png": __vite_glob_1_8, "../../projects/trajectory_prediction.png": __vite_glob_1_9, "../../projects/transmission_box.png": __vite_glob_1_10 });
   let stars = null;
   projectsByDate = Object.keys(projects).sort((a, b) => projects[b].date - projects[a].date);
   projectsByTitle = Object.keys(projects).sort((a, b) => {
@@ -486,8 +486,8 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     return titleA < titleB ? -1 : titleA > titleB ? 1 : 0;
   });
   [...projectsByTitle].sort((a, b) => {
-    const starsA = stars?.[projects[a].repo] ?? 0;
-    const starsB = stars?.[projects[b].repo] ?? 0;
+    const starsA = 0;
+    const starsB = 0;
     return starsB - starsA;
   });
   $$unsubscribe_page();

@@ -1,6 +1,6 @@
 ---
 title: Transmission Box
-date: October 2021
+date: 2021-10-01
 repo: majvie/transmission_box
 topics: ["Mechanical Engineering", "Mechanical Design", "Clutch"]
 lead: design and calculations for a transmission box

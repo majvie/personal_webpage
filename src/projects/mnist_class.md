@@ -1,6 +1,6 @@
 ---
 title: Handwritten Letters Classficiation
-date: November 2022
+date: 2022-11-01
 repo: majvie/mnist_class
 topics: ["Machine Learning", "MLP", "pytorch"]
 lead: MNIST classification using MLPs and pytorch

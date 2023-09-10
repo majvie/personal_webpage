@@ -26,31 +26,31 @@ const WritingList = create_ssr_component(($$result, $$props, $$bindings, slots) 
 var data = { papers: [
   {
     title: "Trajectory Prediction for Telescope Based UAV Tracking",
-    date: new Date(16566336e5),
+    date: /* @__PURE__ */ new Date(16566336e5),
     summary: "Bachelor thesis comparing the use of Kalman and Particle filters for object tracking, improving the performance in cases of object occlusion and jumping trackers.\n",
     link: "/assets/pdf/Vieweg_TrajectoryPrediction.pdf"
   },
   {
     title: "Oceanography Report",
-    date: new Date(16732224e5),
+    date: /* @__PURE__ */ new Date(16732224e5),
     summary: "Report from the class 'Oceanography', describing the cast of CTD's and the comparison between simulated drifter advection and data recorded with Ifremer. \n",
     link: "/assets/pdf/Vieweg_Oceanography_Trip_Report.pdf"
   },
   {
     title: "Summary - Adaptive missions for underwater vehicles",
-    date: new Date(1685664e6),
+    date: /* @__PURE__ */ new Date(1685664e6),
     summary: "Summary of three papers on the topic of adaptive missions for underwater vehicles.\n",
     link: "/assets/pdf/NTNU_Intro.pdf"
   },
   {
     title: "Transmission Box Report (GER)",
-    date: new Date(16304544e5),
+    date: /* @__PURE__ */ new Date(16304544e5),
     summary: "Report from the class 'Machine Design - Project', describing calculations for a transmission box, using DIN and ISO norms\n",
     link: "/assets/pdf/e11806443_Berechnung.pdf"
   },
   {
     title: "The Cultural Revolution in China (GER)",
-    date: new Date(14859072e5),
+    date: /* @__PURE__ */ new Date(14859072e5),
     summary: "High school thesis on the Chinese Cultural Revolution, including an interview held and translated by myself\n",
     link: "/assets/pdf/Vieweg_DieKulturrevolutionInChina.pdf"
   }

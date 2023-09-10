@@ -15,6 +15,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     },
     {
       name: "Fish Classification",
+      // aside: "6000+ stars on GitHub",
       href: "/projects#02_fish_classification",
       desc: "classifying fish using CNNs in pytorch"
     },
@@ -22,11 +23,6 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       name: "Maritime Object Detection",
       href: "/projects#03_maritime_object_detection",
       desc: "detecting sailboats at sea"
-    },
-    {
-      name: "Transmission Box",
-      href: "/projects#05_transmission_box",
-      desc: "design and calculations for a transmission box"
     }
   ];
   $$result.css.add(css);

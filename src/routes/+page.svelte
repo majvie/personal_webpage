@@ -20,11 +20,6 @@
       href: "/projects#03_maritime_object_detection",
       desc: "detecting sailboats at sea",
     },
-    {
-      name: "Transmission Box",
-      href: "/projects#05_transmission_box",
-      desc: "design and calculations for a transmission box",
-    },
   ];
 </script>
 

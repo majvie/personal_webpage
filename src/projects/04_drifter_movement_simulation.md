@@ -1,6 +1,6 @@
 ---
 title: Simulation of Drifter Advection compared to Real-Life Data
-date: October 2022
+date: 2022-10-01
 topics: ["Numerical Simulation", "Oceanography", "MATLAB"]
 lead: drifter simulation
 image: drifter_movement_simulation.png

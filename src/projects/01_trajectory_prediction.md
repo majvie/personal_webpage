@@ -1,6 +1,6 @@
 ---
 title: Trajectory Prediction of Unmanned Aerial Vehicles for a Telescope System
-date: August 2022
+date: 2022-08-01
 repo: majvie/transmission_box
 topics: ["Kalman Filter", "Particle Filter", "C++"]
 lead: bachelor thesis @ TU Vienna

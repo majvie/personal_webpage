@@ -1,13 +1,16 @@
-import { g as getContext } from "./index.js";
+import { h as getContext } from "./index.js";
 const getStores = () => {
   const stores = getContext("__svelte__");
   return {
+    /** @type {typeof page} */
     page: {
       subscribe: stores.page.subscribe
     },
+    /** @type {typeof navigating} */
     navigating: {
       subscribe: stores.navigating.subscribe
     },
+    /** @type {typeof updated} */
     updated: stores.updated
   };
 };

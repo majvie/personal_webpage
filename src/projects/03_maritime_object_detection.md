@@ -1,6 +1,6 @@
 ---
 title: Detection of Maritime Objects
-date: January 2023
+date: 2023-01-01
 topics: ["Object Detection", "R-CNN", "pytorch"]
 lead: detecting sailboats at sea
 image: maritime_object_detection.png

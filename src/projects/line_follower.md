@@ -1,6 +1,6 @@
 ---
 title: HDD Based Line Follower
-date: March 2022
+date: 2022-03-01
 repo: majvie/line_follower
 topics: ["Electronics", "motors", "C"]
 lead: electrical wiring and low level programming

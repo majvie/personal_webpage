@@ -185,6 +185,7 @@ function create_ssr_component(fn) {
     const $$ = {
       on_destroy,
       context: new Map(context || (parent_component ? parent_component.$$.context : [])),
+      // these will be immediately discarded
       on_mount: [],
       before_update: [],
       after_update: [],
@@ -206,6 +207,7 @@ function create_ssr_component(fn) {
         css: {
           code: Array.from(result.css).map((css) => css.code).join("\n"),
           map: null
+          // TODO
         },
         head: result.title + result.head
       };
@@ -226,21 +228,21 @@ function style_object_to_string(style_object) {
   return Object.keys(style_object).filter((key) => style_object[key]).map((key) => `${key}: ${escape_attribute_value(style_object[key])};`).join(" ");
 }
 export {
-  safe_not_equal as a,
+  setContext as a,
   subscribe as b,
   create_ssr_component as c,
   each as d,
   escape as e,
   add_attribute as f,
-  getContext as g,
-  compute_rest_props as h,
-  spread as i,
-  escape_object as j,
-  escape_attribute_value as k,
-  is_void as l,
+  add_classes as g,
+  getContext as h,
+  compute_rest_props as i,
+  spread as j,
+  escape_object as k,
+  escape_attribute_value as l,
   missing_component as m,
   noop as n,
-  add_classes as o,
-  setContext as s,
+  is_void as o,
+  safe_not_equal as s,
   validate_component as v
 };

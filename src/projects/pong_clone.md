@@ -1,6 +1,6 @@
 ---
 title: Pong Clone
-date: November 2021
+date: 2021-09-01
 repo: majvie/pong
 topics: ["STM 32", "interrupts", "C"]
 lead: working with microcontrollers and sensors
